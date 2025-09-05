@@ -1,4 +1,5 @@
 ⚡ SmartOps – A Mini Java Task Automation Project
+
 🌱 Why I Built This
 
 When I started learning Java beyond textbooks, I realized I wanted to see how real-world systems manage multiple operations—not just isolated programs.
@@ -54,20 +55,22 @@ MainClass: Entry point where tasks are created, linked, and executed.
 Every piece is designed to show the thought process behind real-world system design.
 
 📂 Project Structure
+```text
 Mini_Project/
 ├── src/
-│   ├── com.smartops.tasks/
-│   │   ├── OperationTask.java      # Interface
-│   │   ├── AbstractTask.java       # Base abstract class
-│   │   ├── PaymentTask.java        # Simulates payment
-│   │   ├── EmailTask.java          # Simulates email sending
-│   │   ├── ReportTask.java         # Simulates report generation
-│   │   ├── TaskManager.java        # Core manager for running tasks
-│   │   └── MainClass.java          # Program entry point
+│ ├── com.smartops.tasks/
+│ │ ├── OperationTask.java
+│ │ ├── AbstractTask.java
+│ │ ├── PaymentTask.java
+│ │ ├── EmailTask.java
+│ │ ├── ReportTask.java
+│ │ ├── TaskManager.java
+│ │ └── MainClass.java
 ├── .gitignore
 ├── .project
 ├── .classpath
 └── README.md
+```
 
 🚀 Example Run
 
