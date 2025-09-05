@@ -1,4 +1,4 @@
-⚡ SmartOps – A Mini Java Task Automation Project
+#⚡ SmartOps – A Mini Java Task Automation Project (H1)
 
 🌱 Why I Built This
 
