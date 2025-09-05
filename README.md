@@ -1,6 +1,7 @@
-#⚡ SmartOps – A Mini Java Task Automation Project (H1)
+# **⚡ SmartOps – A Mini Java Task Automation Project**
 
-🌱 Why I Built This
+
+🌱 **Why I Built This**
 
 When I started learning Java beyond textbooks, I realized I wanted to see how real-world systems manage multiple operations—not just isolated programs.
 
