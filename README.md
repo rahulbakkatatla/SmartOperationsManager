@@ -15,6 +15,7 @@ How to design systems that are resilient and maintainable.
 
 SmartOps became my mini playground to experiment with Java OOP, abstraction, and task management—all in a way that feels like real-world software.
 
+
 🧩 **What Does SmartOps Do?**
 
 SmartOps is a task runner framework in Java. You can:
@@ -29,6 +30,7 @@ Get a final report showing which tasks succeeded and which failed.
 
 Think of it as a tiny operations manager, built entirely in Java, that mirrors challenges real systems face.
 
+
 ⏳ **When To Use It?**
 
 This project is ideal when you want to:
@@ -40,6 +42,7 @@ Simulate real-world operations without complex enterprise systems.
 Build a base project that can grow: add logging, real emails, database storage, or a GUI.
 
 For me, it was a moment of “learning by doing”—stepping beyond theory into practical problem-solving.
+
 
 ⚙️ **How Does It Work?**
 
@@ -54,6 +57,7 @@ TaskManager: Handles execution, retries, dependencies, and the final report.
 MainClass: Entry point where tasks are created, linked, and executed.
 
 Every piece is designed to show the thought process behind real-world system design.
+
 
 📂 **Project Structure**
 ```text
@@ -105,9 +109,11 @@ public class MainClass {
 [RUNNING] Welcome Email
 [SUCCESS] Welcome Email
 
+
 === **Final Report** ===
 ✔️ Successful Tasks: Payment, Report, Email
 ❌ Failed Tasks: None
+
 
 🌟 **What Did I Learn?**
 
@@ -121,6 +127,7 @@ How to design for growth, making it easy to add new task types.
 
 Why reporting and error handling are critical in automation frameworks.
 
+
 🚧 **Future Improvements**
 
 This project is a foundation, not a finished product. Future enhancements could include:
@@ -132,6 +139,7 @@ Connecting tasks to a real email service or payment gateway.
 Storing reports in databases or JSON files.
 
 Creating a GUI to manage and trigger tasks interactively.
+
 
 👤 **Author**
 
