@@ -77,6 +77,7 @@ Mini_Project/
 └── README.md
 ```
 
+
 🚀 **Example Run**
 
 public class MainClass {
@@ -96,6 +97,14 @@ public class MainClass {
         manager.runAll();
     }
 }
+
+## 🚀 Run This Project
+
+### Option 1: Using JAR
+1. Download `SmartOps.jar` from the repo
+2. Open terminal and navigate to the folder containing the JAR
+3. Run: java -jar SmartOps.jar
+4. See the task outputs in terminal
 
 **Sample Output:**
 === Smart Operations Manager ===
