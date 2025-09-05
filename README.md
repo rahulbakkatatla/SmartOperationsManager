@@ -15,7 +15,7 @@ How to design systems that are resilient and maintainable.
 
 SmartOps became my mini playground to experiment with Java OOP, abstraction, and task management—all in a way that feels like real-world software.
 
-🧩 What Does SmartOps Do?
+🧩 **What Does SmartOps Do?**
 
 SmartOps is a task runner framework in Java. You can:
 
@@ -29,7 +29,7 @@ Get a final report showing which tasks succeeded and which failed.
 
 Think of it as a tiny operations manager, built entirely in Java, that mirrors challenges real systems face.
 
-⏳ When To Use It?
+⏳ **When To Use It?**
 
 This project is ideal when you want to:
 
@@ -41,7 +41,7 @@ Build a base project that can grow: add logging, real emails, database storage, 
 
 For me, it was a moment of “learning by doing”—stepping beyond theory into practical problem-solving.
 
-⚙️ How Does It Work?
+⚙️ **How Does It Work?**
 
 OperationTask (Interface): The contract all tasks must follow.
 
@@ -55,7 +55,7 @@ MainClass: Entry point where tasks are created, linked, and executed.
 
 Every piece is designed to show the thought process behind real-world system design.
 
-📂 Project Structure
+📂 **Project Structure**
 ```text
 Mini_Project/
 ├── src/
@@ -73,7 +73,7 @@ Mini_Project/
 └── README.md
 ```
 
-🚀 Example Run
+🚀 **Example Run**
 
 public class MainClass {
     public static void main(String[] args) {
@@ -93,7 +93,7 @@ public class MainClass {
     }
 }
 
-Sample Output:
+**Sample Output:**
 === Smart Operations Manager ===
 
 [RUNNING] Order#1234 Payment
@@ -105,11 +105,11 @@ Sample Output:
 [RUNNING] Welcome Email
 [SUCCESS] Welcome Email
 
-=== Final Report ===
+=== **Final Report** ===
 ✔️ Successful Tasks: Payment, Report, Email
 ❌ Failed Tasks: None
 
-🌟 What Did I Learn?
+🌟 **What Did I Learn?**
 
 Working on SmartOps taught me:
 
@@ -121,7 +121,7 @@ How to design for growth, making it easy to add new task types.
 
 Why reporting and error handling are critical in automation frameworks.
 
-🚧 Future Improvements
+🚧 **Future Improvements**
 
 This project is a foundation, not a finished product. Future enhancements could include:
 
@@ -133,9 +133,9 @@ Storing reports in databases or JSON files.
 
 Creating a GUI to manage and trigger tasks interactively.
 
-👤 Author
+👤 **Author**
 
-Rahul Yadav B
+**Rahul Yadav B**
 Java Developer | DSA Learner | Aspiring Backend Engineer
 
   
