@@ -1,4 +1,5 @@
 ⚡ SmartOps – Mini Java Task Automation Project
+
 🌱 Why I Built This
 
 When I started learning Java beyond textbooks, I realized I wanted to see how real-world systems manage multiple operations—not just isolated programs.
@@ -74,6 +75,7 @@ Mini_Project/
 
 ## 🚀 Example Run
 ---------
+
 public class MainClass {
     public static void main(String[] args) {
         TaskManager manager = new TaskManager();
@@ -91,6 +93,7 @@ public class MainClass {
         manager.runAll();
     }
 }
+
 --------
 Sample Output 
 
