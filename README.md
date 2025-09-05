@@ -74,7 +74,24 @@ Mini_Project/
 
 🚀 Example Run
 
-<pre> ```java public class MainClass { public static void main(String[] args) { TaskManager manager = new TaskManager(); OperationTask payment = new PaymentTask("Order#1234 Payment", 2500.50); OperationTask email = new EmailTask("Welcome Email", "rahul@example.com", "Welcome to SmartOps 🚀"); OperationTask report = new ReportTask("Daily Sales Report", "Sales"); manager.addTask(payment); manager.addTask(email); manager.addTask(report); manager.addDependency(payment, report); // Report depends on payment manager.runAll(); } } ``` </pre>
+public class MainClass {
+    public static void main(String[] args) {
+        TaskManager manager = new TaskManager();
+
+        OperationTask payment = new PaymentTask("Order#1234 Payment", 2500.50);
+        OperationTask email = new EmailTask("Welcome Email", "rahul@example.com", "Welcome to SmartOps 🚀");
+        OperationTask report = new ReportTask("Daily Sales Report", "Sales");
+
+        manager.addTask(payment);
+        manager.addTask(email);
+        manager.addTask(report);
+
+        manager.addDependency(payment, report); // Report depends on payment
+
+        manager.runAll();
+    }
+}
+
 Sample Output:
 === Smart Operations Manager ===
 
