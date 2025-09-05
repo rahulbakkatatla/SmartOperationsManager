@@ -107,6 +107,7 @@ public class MainClass {
 4. See the task outputs in terminal
 
 **Sample Output:**
+
 === Smart Operations Manager ===
 
 [RUNNING] Order#1234 Payment
@@ -120,6 +121,7 @@ public class MainClass {
 
 
 === **Final Report** ===
+
 ✔️ Successful Tasks: Payment, Report, Email
 ❌ Failed Tasks: None
 
@@ -153,6 +155,7 @@ Creating a GUI to manage and trigger tasks interactively.
 👤 **Author**
 
 **Rahul Yadav B**
+
 Java Developer | DSA Learner | Aspiring Backend Engineer
 
   
