@@ -1,5 +1,6 @@
 ⚡ SmartOps – Mini Java Task Automation Project
 
+
 🌱 Why I Built This
 
 When I started learning Java beyond textbooks, I realized I wanted to see how real-world systems manage multiple operations—not just isolated programs.
@@ -13,6 +14,7 @@ How dependencies between tasks are handled.
 How to design systems that are resilient and maintainable.
 
 SmartOps became my mini playground to experiment with Java OOP, abstraction, and task management—all in a way that feels like real-world software.
+
 
 🧩 What SmartOps Does
 
@@ -28,6 +30,7 @@ Get a final report showing which tasks succeeded and which failed.
 
 Think of it as a tiny operations manager, built entirely in Java, that mirrors challenges real systems face.
 
+
 ⏳ When It’s Useful
 
 This project is ideal when you want to:
@@ -39,6 +42,7 @@ Simulate real-world operations without complex enterprise systems.
 Build a base project that can grow: adding logging, real emails, database storage, or even a GUI.
 
 For me, it was a moment of “learning by doing” — stepping beyond theory into practical problem-solving.
+
 
 ⚙️ How It Works
 
@@ -53,6 +57,8 @@ TaskManager: Handles execution, retries, dependencies, and the final report.
 MainClass: Entry point where tasks are created, linked, and executed.
 
 Every piece is designed to show the thought process behind real-world system design.
+
+
 
 ## 📂 Project Structure
 Mini_Project/
@@ -71,7 +77,7 @@ Mini_Project/
 └── README.md
 
 
----
+
 
 ## 🚀 Example Run
 ---------
